@@ -1475,6 +1475,12 @@ echo $string?->append('foo')
     else if (true) {
     }
 
+if (true) {
+    ?><?php echo addslashes(
+        ''
+    );
+}
+
 $a = 1;
 
 /*
